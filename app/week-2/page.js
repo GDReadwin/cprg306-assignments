@@ -1,4 +1,4 @@
-import StudentInfo from "C:cprg306cprg306-assignmentsappweek-2/student-info";
+import StudentInfo from "C:/cprg306/cprg306-assignments/app/week-2/student-info";
 
 const Week2Page = () => {
   return (

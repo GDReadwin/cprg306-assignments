@@ -7,9 +7,7 @@ const StudentInfo = () => {
       <p>
         GitHub Repository:
         <Link href="https://github.com/GDReadwin/cprg306-assignments">
-          <a target="_blank" rel="noopener noreferrer">
-            Your GitHub Repository
-          </a>
+          cprg306-assignments
         </Link>
       </p>
     </div>
