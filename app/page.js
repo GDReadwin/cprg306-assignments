@@ -5,10 +5,13 @@ const HomePage = () => {
     <div>
       <h1>CPRG 306: Web Development 2 - Assignments</h1>
       <p>
-        <Link href="/week-2/" passHref>
-          <div>
-            <a>Navigate to Week 2 Page</a>
-          </div>
+        <Link href="/week-2/">
+          <span>Navigate to Week 2 Page</span>
+        </Link>
+      </p>
+      <p>
+        <Link href="/week-3/">
+          <span>Navigate to Week 3 Page</span>
         </Link>
       </p>
     </div>
