@@ -18,12 +18,13 @@
 
 body {
   color: rgb(var(--foreground-rgb));
+  background-color: #ADD8E6; /* Set a fallback background color */
   background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    to bottom,
+    #ADD8E6, /* Light Blue */
+    #FFD700  /* Lighter Gold */
+  ) no-repeat fixed; /* Set the gradient to not repeat and remain fixed */
+  background-size: cover; /* Ensure the gradient covers the entire page */
 }
 
 @layer utilities {
