@@ -39,6 +39,11 @@ const HomePage = () => {
           <span>Navigate to Week 8 Page</span>
         </Link>
       </p>
+      <p>
+        <Link href="/week-10/">
+          <span>Navigate to Week 10 Page</span>
+        </Link>
+      </p>
     </div>
   );
 };
